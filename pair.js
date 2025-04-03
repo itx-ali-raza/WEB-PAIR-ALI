@@ -8,18 +8,18 @@ const MESSAGE = process.env.MESSAGE || `
 *SESSION GENERATED SUCCESSFULY* ✅
 
 *Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
-https://github.com/GuhailTechInfo/ULTRA-MD
+/https://github.com/Neaterry6
 
 *Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 💭
-https://t.me/GlobalBotInc
-https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07
+"
 
 
-*Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🪄 
-https://youtube.com/GlobalTechInfo
 
-*ULTRA-MD--WHATTSAPP-BOT* 🥀
-`;
+*JOIN-WHATSAPP CHANNE* 🪄 
+https://whatsapp.com/channel/0029VaszFrk3LdQLKvzM8B1Y
+
+*ULTRA-TITANS-MD CREATED BY TITAN CLAN*🥀
+`;https://whatsapp.com/channel/0029VaszFrk3LdQLKvzM8B1Y'
 
 const { upload } = require('./mega');
 const {
