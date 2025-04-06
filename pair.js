@@ -75,7 +75,7 @@ router.get('/', async (req, res) => {
 
                         // Define randomMegaId function to generate random IDs
                         function randomMegaId(length = 6, numberLength = 4) {
-                            const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+                            const characters = 'ULTRA TITAN MDSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
                             let result = '';
                             for (let i = 0; i < length; i++) {
                                 result += characters.charAt(Math.floor(Math.random() * characters.length));
