@@ -5,7 +5,7 @@ let router = express.Router();
 const pino = require("pino");
 const { Boom } = require("@hapi/boom");
 const MESSAGE = process.env.MESSAGE || `
-*SESSION GENERATED SUCCESSFULY* ✅
+*ULTRA-TITAN-BOT SESSION GENERATED SUCCESSFULLY * ✅
 
 *Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
 https://neaterry6@gmail.com
