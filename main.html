@@ -1,74 +1,91 @@
 
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page - Titan Session Generator</title>
-    <style>
-        body {
-            background-image: url('https://files.catbox.moe/4lh4ow.jpg'); /* Background Image */
-            background-size: cover;
-            background-position: center;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            color: white;
-            margin: 0;
-            padding: 0;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Titan Session Generator</title>
+  <style>
+    body {
+      background-image: url('https://files.catbox.moe/38hfq5.jpg');
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
 
-        .container {
-            margin-top: 20%;
-        }
+    .container {
+      margin-top: 10%;
+      animation: fadeIn 2s;
+    }
 
-        h1 {
-            font-size: 28px;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-        }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
 
-        .btn {
-            background: rgba(255, 255, 255, 0.2);
-            color: white;
-            border: 2px solid white;
-            padding: 12px 20px;
-            font-size: 18px;
-            cursor: pointer;
-            margin: 10px;
-            border-radius: 8px;
-            transition: 0.3s ease-in-out;
-        }
+    h1 {
+      font-size: 40px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+      animation: pulse 2s infinite;
+    }
 
-        .btn:hover {
-            background: white;
-            color: black;
-        }</style>
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .btn {
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      border: 2px solid white;
+      padding: 12px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      margin: 10px;
+      border-radius: 8px;
+      transition: 0.3s ease-in-out;
+    }
+
+    .btn:hover {
+      background: white;
+      color: black;
+      transform: scale(1.1);
+    }
+  </style>
 </head>
 <body>
-
-    <div class="container">
-        <h1>🔥 Titan Session Generator 🔥</h1>
-        <p>Generate your WhatsApp session easily!</p>
-
-        <!-- ✅ Button for Pair Code (Redirects to pair.html) -->
-        <a href="pair.html">
-            <button class="btn">Pair Code</button>
-        </a>
-
-        <!-- ✅ Other Buttons -->
-        <a href="qr.html">
-            <button class="btn">QR Code</button>
-        </a>
-
-        <a href="https://github.com/Neaterry6" target="_blank">
-            <button class="btn">GitHub</button>
-        </a>
-
-        <a href="https://whatsapp.com/channel/0029VaszFrk3LdQLKvzM8B1Y" target="_blank">
-            <button class="btn">WhatsApp</button>
-        </a>
-    </div>
-
+  <div class="container">
+    <h1>🔥 Titan Session Generator 🔥</h1>
+    <p>Generate your WhatsApp session easily!</p>
+    <!-- ✅ Button for Pair Code (Redirects to pair.html) -->
+    <a href="pair.html" target="_self">
+      <button class="btn">Pair Code</button>
+    </a>
+    <!-- ✅ Other Buttons -->
+    <a href="qr.html" target="_self">
+      <button class="btn">QR Code</button>
+    </a>
+    <a href="https://github.com/Neaterry6" target="_blank">
+      <button class="btn">GitHub</button>
+    </a>
+    <a href="https://whatsapp.com/channel/0029VaszFrk3LdQLKvzM8B1Y" target="_blank">
+      <button class="btn">WhatsApp</button>
+    </a>
+  </div>
 </body>
 </html>
-
